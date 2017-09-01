@@ -13,9 +13,9 @@ show_menu(){
     ENTER_LINE=`echo "\033[33m"`
     echo -e "${NORMAL}Select your compression method${NORMAL}"
     echo -e "\t${NUMBER} 1)${MENU} .7z ${RED_TEXT}(Recommended) ${NORMAL}\t${NUMBER} 2)${MENU} .rar ${NORMAL}"
-    echo -e "\t${NUMBER} 3)${MENU} .zip ${NORMAL}\t${NUMBER} 4)${MENU} .bz2 ${NORMAL}"
-    echo -e "\t${NUMBER} 5)${MENU} .gz ${NORMAL}\t${NUMBER} 6)${MENU} .tar ${NORMAL}"
-    echo -e "\t${NUMBER} 7)${MENU} .tar.gz ${NORMAL}\t${NUMBER} 8)${MENU} .tar.bz2 ${NORMAL}"
+    echo -e "\t${NUMBER} 3)${MENU} .zip ${NORMAL}\t\t${NUMBER} 4)${MENU} .bz2 ${NORMAL}"
+    echo -e "\t${NUMBER} 5)${MENU} .gz ${NORMAL}\t\t${NUMBER} 6)${MENU} .tar ${NORMAL}"
+    echo -e "\t${NUMBER} 7)${MENU} .tar.gz ${NORMAL}\t\t${NUMBER} 8)${MENU} .tar.bz2 ${NORMAL}"
     #echo -e "${MENU}*********************************************${NORMAL}"
     echo -e "${ENTER_LINE}Please enter a menu option and enter or ${RED_TEXT}enter to exit. ${NORMAL}"
     read opt
